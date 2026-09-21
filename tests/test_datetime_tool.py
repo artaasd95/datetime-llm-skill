@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 
-SCRIPT = Path(__file__).parents[1] / "scripts" / "datetime_tool.py"
+SCRIPT = Path(__file__).parents[1] / "skills" / "datetime-calendar" / "scripts" / "datetime_tool.py"
 
 
 def run(*args):

@@ -1,6 +1,6 @@
 ---
 name: datetime-calendar
-description: Provides deterministic current date/time, timezone conversion, and complete month-calendar generation. Use whenever the user or agent needs the current date or time, a timezone-specific time, datetime conversion, date arithmetic, weekday information, month boundaries, number of days in a month, or a complete structured calendar.
+description: Provides deterministic current date/time, timezone conversion, and complete month-calendar generation. Use whenever the user or agent needs the current date or time, a timezone-specific time, datetime conversion, weekday information, month boundaries, number of days in a month, or a complete structured calendar.
 ---
 
 # Datetime & Calendar
@@ -99,7 +99,7 @@ Each item in `days` includes:
 }
 ```
 
-`weekday_index` uses ISO numbering: Monday=0 through Sunday=6.
+`weekday_index` uses Monday=0 through Sunday=6 (matching Python's `datetime.weekday()`).
 
 The compact representation looks like:
 
