@@ -1,0 +1,19 @@
+{
+  "name": "llm-datetime-calendar",
+  "version": "1.0.0",
+  "description": "Deterministic datetime, timezone conversion, and complete month-calendar utilities for Claude Code skills and agents.",
+  "author": {
+    "name": "Arta Asadi"
+  },
+  "license": "MIT",
+  "keywords": [
+    "datetime",
+    "calendar",
+    "timezone",
+    "date",
+    "iso-8601",
+    "dst",
+    "llm",
+    "agent-skill"
+  ]
+}
